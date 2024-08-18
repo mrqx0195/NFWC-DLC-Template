@@ -23,6 +23,10 @@
 
 </details>
 
+### 注意
+
+ 本仓库不包含配方/数据包等于器官无关部分的示例，如果你有这部分需要，请查阅其他资料
+
 ### 鸣谢
 
 [No Flesh Within Chest](https://github.com/Yorunina/No-Flesh-Within-Chest)：原整合包
