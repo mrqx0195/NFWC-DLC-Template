@@ -19,13 +19,14 @@
 
 1. 点击 [![start-course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_name=NFWC-DLC-Template&template_owner=mrqx0195) 创建仓库
 2. 在创建好的新仓库中, 在 "Add file" 菜单中选择 "Create new file", 在新文件名处输入`LICENSE`, 此时在右侧会出现一个 "Choose a license template" 按钮, 点击此按钮选择开源协议模板, 然后在最下方提交新文件到主分支
-3. 修改 README 中的描述，然后开始制作属于你的DLC吧！
+3. 全局替换```dlc_template```和```dlcTemplate```为你自己的DLC名称，
+4. 修改 README 中的描述，然后开始制作属于你的DLC吧！
 
 </details>
 
 ### 注意
 
- 本仓库不包含配方/数据包等于器官无关部分的示例，如果你有这部分需要，请查阅其他资料
+本仓库不包含配方/数据包等于器官无关部分的示例，如果你有这部分需要，请查阅其他资料
 
 ### 鸣谢
 
