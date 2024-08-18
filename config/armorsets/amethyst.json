@@ -1,0 +1,36 @@
+{
+  "armorSetName": "amethyst",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "extraarmor:amethyst_helmet"
+  },
+  "chest": {
+    "itemKey": "extraarmor:amethyst_chestplate"
+  },
+  "legs": {
+    "itemKey": "extraarmor:amethyst_leggings"
+  },
+  "boots": {
+    "itemKey": "extraarmor:amethyst_boots"
+  },
+  "hideGeneratedTooltip": false,
+  "customTooltips": [
+    "\u9b54\u529b\u4e0e\u76d4\u7532\u53d1\u751f\u5f3a\u70c8\u7684\u5171\u9e23\uff0c\u51cf\u5c11\u65bd\u6cd5\u65f6\u95f4\u548c\u6cd5\u672f\u51b7\u5374\u65f6\u95f4"
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:cast_time_reduction",
+      "modifierUUID": "E1328811-725F-4CB3-BBD6-0CED3B8E87A4",
+      "description": "-15% \u65bd\u6cd5\u65f6\u95f4",
+      "value": 0.15
+    },
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:cooldown_reduction",
+      "modifierUUID": "5EF8CE09-33DC-4182-875B-DB1CEC95FBE6",
+      "description": "-15% \u6cd5\u672f\u51b7\u5374\u65f6\u95f4",
+      "value": 0.15
+    }
+  ]
+}

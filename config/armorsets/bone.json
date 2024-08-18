@@ -1,0 +1,40 @@
+{
+  "armorSetName": "bone",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "extraarmor:bone_helmet"
+  },
+  "chest": {
+    "itemKey": "extraarmor:bone_chestplate"
+  },
+  "legs": {
+    "itemKey": "extraarmor:bone_leggings"
+  },
+  "boots": {
+    "itemKey": "extraarmor:bone_boots"
+  },
+  "hideGeneratedTooltip": false,
+  "customTooltips": [
+    "\u4f60\u7684\u7bad\u77e2\u5c06\u66f4\u52a0\u9510\u5229\u800c\u7075\u52a8\uff0c\u4f46\u540c\u65f6\u4e5f\u8ba9\u4f60\u53d8\u5f97\u66f4\u50cf\u9ab7\u9ac5\u2026\u2026"
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "goety:arrowmantic",
+      "value": 4.0,
+      "interactionType": "attack",
+      "interactionDuration": 600,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "kubejs:arrow_damage_boost",
+      "value": 1.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ]
+}

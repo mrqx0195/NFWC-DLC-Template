@@ -1,0 +1,39 @@
+{
+  "armorSetName": "emerald",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "extraarmor:emerald_helmet"
+  },
+  "chest": {
+    "itemKey": "extraarmor:emerald_chestplate"
+  },
+  "legs": {
+    "itemKey": "extraarmor:emerald_leggings"
+  },
+  "boots": {
+    "itemKey": "extraarmor:emerald_boots"
+  },
+  "hideGeneratedTooltip": false,
+  "customTooltips": [
+    "\u6751\u6c11\u66f4\u52a0\u5f85\u89c1\u4f60\uff0c\u4e14\u66f4\u52a0\u5e78\u8fd0"
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.luck",
+      "modifierUUID": "4633B7D9-B7AD-4C36-8322-F4DDF48CF42B",
+      "attributeOperation": 1,
+      "description": "+10% \u5e78\u8fd0",
+      "value": 0.1
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:hero_of_the_village",
+      "value": 1.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "armorSetName": "molten",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "extraarmor:molten_helmet"
+  },
+  "chest": {
+    "itemKey": "extraarmor:molten_chestplate"
+  },
+  "legs": {
+    "itemKey": "extraarmor:molten_leggings"
+  },
+  "boots": {
+    "itemKey": "extraarmor:molten_boots"
+  },
+  "hideGeneratedTooltip": false,
+  "customTooltips": [
+    "\u65e0\u65f6\u65e0\u523b\u4e0d\u5728\u653e\u51fa\u5f3a\u70c8\u7684\u706b\u7130\u6c14\u606f\uff0c\u5e76\u80fd\u4eb2\u548c\u5ca9\u6d46"
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "goety:fiery_aura",
+      "value": 2.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "alexsmobs:lava_vision",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "conditions": [
+        {
+          "type": "inLava"
+        }
+      ],
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ]
+}

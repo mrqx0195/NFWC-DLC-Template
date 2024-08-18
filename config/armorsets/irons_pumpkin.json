@@ -1,0 +1,29 @@
+{
+  "armorSetName": "irons_pumpkin",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "irons_spellbooks:pumpkin_helmet"
+  },
+  "chest": {
+    "itemKey": "irons_spellbooks:pumpkin_chestplate"
+  },
+  "legs": {
+    "itemKey": "irons_spellbooks:pumpkin_leggings"
+  },
+  "boots": {
+    "itemKey": "irons_spellbooks:pumpkin_boots"
+  },
+  "hideGeneratedTooltip": false,
+  "customTooltips": [
+    "\u8fd9\u4e2a\u4e16\u754c\u7684\u9020\u7269\u8d77\u6e90\u4e8e\u5357\u74dc\u2026\u2026"
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:summon_damage",
+      "modifierUUID": "272DC9C4-BCB2-47CA-9837-FEADB02DFCDC",
+      "description": "+80% \u53ec\u5524\u7269\u4f24\u5bb3",
+      "value": 0.8
+    }
+  ]
+}

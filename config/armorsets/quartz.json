@@ -1,0 +1,41 @@
+{
+  "armorSetName": "quartz",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "extraarmor:quartz_helmet"
+  },
+  "chest": {
+    "itemKey": "extraarmor:quartz_chestplate"
+  },
+  "legs": {
+    "itemKey": "extraarmor:quartz_leggings"
+  },
+  "boots": {
+    "itemKey": "extraarmor:quartz_boots"
+  },
+  "hideGeneratedTooltip": false,
+  "customTooltips": [
+    "\u80fd\u591f\u63d0\u4f9b\u4e00\u5b9a\u7684\u6cd5\u672f\u62b5\u6297\u6548\u679c"
+  ],
+  "partialBonusRequiredAmount": 3,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:spell_resist",
+      "modifierUUID": "799D74B5-365E-479B-958C-6DDC4EEF599C",
+      "attributeOperation": 0,
+      "description": "+10% \u6cd5\u672f\u62b5\u6297",
+      "value": 0.1
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:spell_resist",
+      "modifierUUID": "42A46280-C955-459C-BC19-AD5CE1EC7AB7",
+      "attributeOperation": 0,
+      "description": "+30% \u6cd5\u672f\u62b5\u6297",
+      "value": 0.3
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "armorSetName": "rotten_flesh",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "extraarmor:rotten_flesh_helmet"
+  },
+  "chest": {
+    "itemKey": "extraarmor:rotten_flesh_chestplate"
+  },
+  "legs": {
+    "itemKey": "extraarmor:rotten_flesh_leggings"
+  },
+  "boots": {
+    "itemKey": "extraarmor:rotten_flesh_boots"
+  },
+  "hideGeneratedTooltip": false,
+  "customTooltips": [
+    "\u4f60\u7684\u653b\u51fb\u80fd\u591f\u4f7f\u751f\u7269\u6781\u5ea6\u865a\u5f31\uff0c\u4f46\u540c\u65f6\u4e5f\u8ba9\u4f60\u53d8\u5f97\u66f4\u50cf\u50f5\u5c38\u2026\u2026"
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "goety:sun_allergy",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "goety:wane",
+      "value": 1.0,
+      "interactionType": "attack",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ]
+}

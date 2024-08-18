@@ -1,0 +1,547 @@
+
+[Attributes]
+
+	[Attributes.Cultists]
+		#How much Max Health Malghast have, Default: 20.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		malghastHealth = 20.0
+
+		[Attributes.Cultists."Skeleton Villager Servant"]
+			#How much Max Health Skeleton Villager Servants have, Default: 20.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			skeletonVillagerServantHealth = 20.0
+			#How much damage Skeleton Villager Servants deals, Default: 2.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			skeletonVillagerServantDamage = 2.0
+
+		[Attributes.Cultists."Zombified Piglin Servant"]
+			#How much Max Health Zombified Piglin Servants have, Default: 20.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			zombifiedPiglinServantHealth = 20.0
+			#How much damage Zombified Piglin Servants deals, Default: 5.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			zombifiedPiglinServantDamage = 5.0
+			#How much natural armor points Zombified Piglin Servants have, Default: 2.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			zombifiedPiglinServantArmor = 2.0
+
+		[Attributes.Cultists."Zombified Piglin Brute Servant"]
+			#How much Max Health Zombified Piglin Brute Servants have, Default: 50.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			zombifiedPiglinBruteServantHealth = 50.0
+			#How much damage Zombified Piglin Brute Servants deals, Default: 7.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			zombifiedPiglinBruteServantDamage = 7.0
+			#How much natural armor points Zombified Piglin Brute Servants have, Default: 2.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			zombifiedPiglinBruteServantArmor = 2.0
+
+	[Attributes.Illagers]
+		#How much Max Health Conquillager have, Default: 24.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		conquillagerHealth = 24.0
+		#How much natural Armor Conquillager have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		conquillagerArmor = 0.0
+
+		[Attributes.Illagers.Envioker]
+			#How much Max Health Envioker have, Default: 24.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			enviokerHealth = 24.0
+			#How much damage Envioker deals, Default: 5.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			enviokerDamage = 5.0
+			#How much Max Health Tormentor have, Default: 24.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			tormentorHealth = 24.0
+			#How much damage Tormentor deals, Default: 4.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			tormentorDamage = 4.0
+			#How much natural Armor Enviokers have, Default: 0.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			enviokerArmor = 0.0
+			#How much natural Armor Tormentors have, Default: 0.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			tormentorArmor = 0.0
+
+		[Attributes.Illagers.Inquillager]
+			#How much Max Health Inquillager have, Default: 24.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			inquillagerHealth = 24.0
+			#How much damage Inquillager deals, Default: 5.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			inquillagerDamage = 5.0
+			#How much natural Armor Inquillager have, Default: 0.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			inquillagerArmor = 0.0
+
+		[Attributes.Illagers.Piker]
+			#How much Max Health Pikers have, Default: 24.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			pikerHealth = 24.0
+			#How much Armor Pikers have, Default: 4.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			pikerArmor = 4.0
+			#How much damage Pikers deals, Default: 9.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			pikerDamage = 9.0
+
+		[Attributes.Illagers.Preacher]
+			#How much Max Health Preachers have, Default: 24.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			preacherHealth = 24.0
+			#How much health Preachers heal, Default: 6.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			preacherHeal = 6.0
+			#How much natural Armor Preachers have, Default: 0.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			preacherArmor = 0.0
+
+		[Attributes.Illagers.Crusher]
+			#How much Max Health Crushers have, Default: 24.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			crusherHealth = 24.0
+			#How much damage Crushers deals, Default: 10.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			crusherDamage = 10.0
+			#How much natural Armor Crushers have, Default: 0.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			crusherArmor = 0.0
+
+		[Attributes.Illagers."Storm Caster"]
+			#How much Max Health Storm Casters have, Default: 24.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			stormCasterHealth = 24.0
+			#How much damage Storm Casters deals, Default: 5.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			stormCasterDamage = 5.0
+			#How much natural Armor Storm Casters have, Default: 0.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			stormCasterArmor = 0.0
+
+		[Attributes.Illagers.Cryologer]
+			#How much Max Health Cryologers have, Default: 24.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			cryologerHealth = 24.0
+			#How much damage Cryologers deals, Default: 5.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			cryologerDamage = 5.0
+			#How much natural Armor Cryologers have, Default: 0.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			cryologerArmor = 0.0
+
+		[Attributes.Illagers.Trampler]
+			#How much Max Health Tramplers have, Default: 30.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			tramplerHealth = 30.0
+			#How much damage Tramplers deals, Default: 6.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			tramplerDamage = 6.0
+			#How much natural Armor Tramplers have, Default: 0.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			tramplerArmor = 0.0
+
+		[Attributes.Illagers.Ripper]
+			#How much Max Health Rippers have, Default: 16.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			ripperHealth = 16.0
+			#How much Armor Rippers have, Default: 2.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			ripperArmor = 2.0
+			#How much damage Rippers deals, Default: 2.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			ripperDamage = 2.0
+
+	[Attributes.General]
+
+		[Attributes.General.Wraith]
+			#How much Max Health Wraiths have, Default: 25.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			wraithHealth = 25.0
+			#How much damage Wraith deals, Default: 4.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			wraithDamage = 4.0
+			#How much natural Armor Wraiths have, Default: 0.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			wraithArmor = 0.0
+
+		[Attributes.General.Necromancer]
+			#How much Max Health Necromancers have, Default: 50.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			necromancerHealth = 50.0
+			#How much damage Necromancers deals, Default: 4.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			necromancerDamage = 4.0
+			#How much natural Armor Necromancers have, Default: 0.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			necromancerArmor = 0.0
+
+		[Attributes.General."Haunted Armor"]
+			#How much Max Health Haunted Armor have, Default: 25.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			hauntedArmorHealth = 25.0
+
+	[Attributes."Summoned Mobs"]
+
+		[Attributes."Summoned Mobs"."Zombie Servant"]
+			#How much Max Health Zombie Servants have, Default: 20.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			zombieServantHealth = 20.0
+			#How much damage Zombie Servants deals, Default: 3.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			zombieServantDamage = 3.0
+			#How much natural armor points Zombie Servants have, Default: 2.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			zombieServantArmor = 2.0
+
+		[Attributes."Summoned Mobs"."Skeleton Servant"]
+			#How much Max Health Skeleton Servants have, Default: 20.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			skeletonServantHealth = 20.0
+			#How much damage Skeleton Servants deals, Default: 2.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			skeletonServantDamage = 3.0
+			#How much natural Armor Skeleton Servants have, Default: 0.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			skeletonServantArmor = 0.0
+
+		[Attributes."Summoned Mobs"."Vanguard Servant"]
+			#How much Max Health Vanguard Servants have, Default: 20.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			vanguardServantHealth = 20.0
+			#How much Armor Vanguard Servants have, Default: 9.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			vanguardServantArmor = 9.0
+			#How much damage Vanguard Servants deals, Default: 7.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			vanguardServantDamage = 7.0
+
+		[Attributes."Summoned Mobs"."Skeleton Pillager"]
+			#How much Max Health Skeleton Pillagers have, Default: 24.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			skeletonPillagerHealth = 24.0
+			#How much damage Skeleton Pillagers deals, Default: 5.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			skeletonPillagerDamage = 5.0
+			#How much natural Armor Skeleton Pillagers have, Default: 0.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			skeletonPillagerArmor = 0.0
+
+		[Attributes."Summoned Mobs"."Zombie Vindicator"]
+			#How much Max Health Zombie Vindicators have, Default: 24.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			zombieVindicatorHealth = 24.0
+			#How much damage Zombie Vindicators deals, Default: 5.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			zombieVindicatorDamage = 5.0
+			#How much natural armor points Zombie Vindicators have, Default: 2.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			zombieVindicatorArmor = 2.0
+
+		[Attributes."Summoned Mobs".Vex]
+			#How much Max Health Summoned Vexes have, Default: 14.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			summonedVexHealth = 14.0
+			#How much damage Summoned Vexes deals, Default: 4.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			summonedVexDamage = 4.0
+
+		[Attributes."Summoned Mobs".Mini-Ghast]
+			#How much Max Health Mini-Ghasts have, Default: 5.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			miniGhastHealth = 5.0
+			#How much damage Mini-Ghasts' fireballs deals, Default: 5.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			miniGhastDamage = 5.0
+
+		[Attributes."Summoned Mobs"."Redstone Golem"]
+			#How much Max Health Redstone Golems have, Default: 240.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			redstoneGolemHealth = 240.0
+			#How much damage Redstone Golems deals, Default: 20.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			redstoneGolemDamage = 20.0
+			#How much natural armor points Redstone Golems have, Default: 0.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			redstoneGolemArmor = 0.0
+			#How much following/detection range Redstone Golems have, Default: 32.0
+			#Range: 1.0 ~ 2048.0
+			redstoneGolemFollowRange = 32.0
+
+		[Attributes."Summoned Mobs"."Grave Golem"]
+			#How much Max Health Grave Golems have, Default: 180.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			graveGolemHealth = 180.0
+			#How much damage Grave Golems deals, Default: 16.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			graveGolemDamage = 16.0
+			#How much Max Health Haunts have, Default: 6.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			hauntHealth = 6.0
+			#How much damage Haunts deals, Default: 2.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			hauntDamage = 2.0
+			#How much natural armor points Grave Golems have, Default: 0.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			graveGolemArmor = 0.0
+			#How much following/detection range Grave Golems have, Default: 32.0
+			#Range: 1.0 ~ 2048.0
+			graveGolemFollowRange = 32.0
+			#How much natural armor points Haunts have, Default: 0.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			hauntArmor = 0.0
+			#How much following/detection range Haunts have, Default: 32.0
+			#Range: 1.0 ~ 2048.0
+			hauntFollowRange = 32.0
+
+		[Attributes."Summoned Mobs"."Husk Servant"]
+			#How much Max Health Husk Servants have, Default: 20.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			huskServantHealth = 20.0
+			#How much natural armor points Husk Servants have, Default: 2.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			huskServantArmor = 2.0
+			#How much damage Husk Servants deals, Default: 3.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			huskServantDamage = 3.0
+
+		[Attributes."Summoned Mobs"."Drowned Servant"]
+			#How much Max Health Drowned Servants have, Default: 20.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			drownedServantHealth = 20.0
+			#How much natural armor points Drowned Servants have, Default: 2.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			drownedServantArmor = 2.0
+			#How much damage Drowned Servants deals, Default: 3.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			drownedServantDamage = 3.0
+
+		[Attributes."Summoned Mobs"."Frozen Zombie Servant"]
+			#How much Max Health Frozen Zombie Servants have, Default: 20.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			frozenZombieServantHealth = 20.0
+			#How much natural armor points Frozen Zombie Servants have, Default: 2.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			frozenZombieServantArmor = 2.0
+			#How much damage Frozen Zombie Servants deals, Default: 3.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			frozenZombieServantDamage = 3.0
+
+		[Attributes."Summoned Mobs"."Jungle Zombie Servant"]
+			#How much Max Health Jungle Zombie Servants have, Default: 20.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			jungleZombieServantHealth = 20.0
+			#How much natural armor points Jungle Zombie Servants have, Default: 2.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			jungleZombieServantArmor = 2.0
+			#How much damage Jungle Zombie Servants deals, Default: 3.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			jungleZombieServantDamage = 3.0
+
+		[Attributes."Summoned Mobs"."Stray Servant"]
+			#How much Max Health Stray Servants have, Default: 20.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			strayServantHealth = 20.0
+			#How much damage Stray Servants deals, Default: 2.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			strayServantDamage = 2.0
+			#How much natural Armor Stray Servants have, Default: 0.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			strayServantArmor = 0.0
+
+		[Attributes."Summoned Mobs"."Mossy Skeleton Servant"]
+			#How much Max Health Mossy Skeleton Servants have, Default: 20.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			mossySkeletonServantHealth = 20.0
+			#How much damage Mossy Skeleton Servants deals, Default: 2.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			mossySkeletonServantDamage = 2.0
+			#How much natural Armor Mossy Skeleton Servants have, Default: 0.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			mossySkeletonServantArmor = 0.0
+
+		[Attributes."Summoned Mobs"."Sunken Skeleton Servant"]
+			#How much Max Health Sunken Skeleton Servants have, Default: 20.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			sunkenSkeletonServantHealth = 20.0
+			#How much damage Sunken Skeleton Servants deals, Default: 2.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			sunkenSkeletonServantDamage = 2.0
+			#How much natural Armor Sunken Skeleton Servants have, Default: 0.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			sunkenSkeletonServantArmor = 0.0
+
+		[Attributes."Summoned Mobs"."Bound Evoker"]
+			#How much Max Health Bound Evokers have, Default: 24.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			boundEvokerHealth = 24.0
+			#How much natural Armor Bound Evokers have, Default: 0.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			boundEvokerArmor = 0.0
+
+		[Attributes."Summoned Mobs"."Squall Golem"]
+			#How much Max Health Squall Golems have, Default: 88.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			squallGolemHealth = 88.0
+			#How much damage Squall Golems deals, Default: 16.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			squallGolemDamage = 16.0
+			#How much natural armor points Squall Golems have, Default: 0.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			squallGolemArmor = 0.0
+			#How much following/detection range Squall Golems have, Default: 32.0
+			#Range: 1.0 ~ 2048.0
+			squallGolemFollowRange = 32.0
+
+		[Attributes."Summoned Mobs".Whisperer]
+			#How much Max Health Whisperers have, Default: 20.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			whispererHealth = 20.0
+			#How much damage Whisperer melee attack deals, Default: 2.5
+			#Range: 1.0 ~ 1.7976931348623157E308
+			whispererDamage = 2.5
+			#How much natural Armor Whisperers have, Default: 0.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			whispererArmor = 0.0
+
+		[Attributes."Summoned Mobs".Leapleaf]
+			#How much Max Health Leapleaves have, Default: 70.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			leapleafHealth = 70.0
+			#How much damage Leapleaves deals, Default: 10.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			leapleafDamage = 10.0
+			#How much natural Armor Leapleaves have, Default: 0.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			leapleafArmor = 0.0
+
+		[Attributes."Summoned Mobs"."Quick Growing Vine"]
+			#How much Max Health Quick Growing Vines have, Default: 10.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			quickGrowingVineHealth = 10.0
+			#How much natural Armor Quick Growing Vines have, Default: 0.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			quickGrowingVineArmor = 0.0
+
+		[Attributes."Summoned Mobs"."Poison-Quill Vine"]
+			#How much Max Health Poison-Quill Vines have, Default: 40.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			poisonQuillVineHealth = 40.0
+			#How much damage Poison-Quill Vines' quills deals, Default: 2.5
+			#Range: 1.0 ~ 1.7976931348623157E308
+			poisonQuillVineDamage = 2.5
+			#How much natural Armor Poison-Quill Vines have, Default: 0.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			quickGrowingVineArmor = 0.0
+
+		[Attributes."Summoned Mobs"."Ice Golem"]
+			#How much Max Health Ice Golems have, Default: 60.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			iceGolemHealth = 60.0
+			#How much natural armor points Ice Golems have, Default: 0.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			iceGolemArmor = 0.0
+			#How much damage Ice Golems deals, Default: 7.5
+			#Range: 1.0 ~ 1.7976931348623157E308
+			iceGolemDamage = 7.5
+			#How much following/detection range Ice Golems have, Default: 16.0
+			#Range: 1.0 ~ 2048.0
+			iceGolemFollowRange = 16.0
+
+		[Attributes."Summoned Mobs"."Redstone Monstrosity"]
+			#How much Max Health Redstone Monstrosities have, Default: 600.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			redstoneMonstrosityHealth = 600.0
+			#How much natural armor points Redstone Monstrosities have, Default: 0.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			redstoneMonstrosityArmor = 0.0
+			#How much damage Redstone Monstrosities deals, Default: 21.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			redstoneMonstrosityDamage = 21.0
+			#How much following/detection range Redstone Monstrosities have, Default: 32.0
+			#Range: 1.0 ~ 2048.0
+			redstoneMonstrosityFollowRange = 32.0
+			#Redstone Monstrosities attack HP percent damage, Default: 0.08
+			#Range: 0.0 ~ 1.0
+			redstoneMonstrosityHPPercentDamage = 0.08
+			#The maximum amount of damage an Redstone Monstrosities can attain per hit, Default: 25.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			redstoneMonstrosityDamageCap = 25.0
+			#How much Max Health Redstone Cubes have, Default: 10.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			redstoneCubeHealth = 10.0
+			#How much natural armor points Redstone Cubes have, Default: 0.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			redstoneCubeArmor = 0.0
+			#How much damage Redstone Cubes deals, Default: 4.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			redstoneCubeDamage = 4.0
+			#How much following/detection range Redstone Cubes have, Default: 16.0
+			#Range: 1.0 ~ 2048.0
+			redstoneCubeFollowRange = 16.0
+			#The furthest number of blocks or distance the target is at that Redstone Monstrosities can perform their spit attack, Default: 13.0
+			#Range: 4.0 ~ 2048.0
+			redstoneMonstrositySpitRange = 13.0
+			#How many blocks or distance away an attack can be from Redstone Monstrosities to damage them, Default: 20.0
+			#Range: 6.0 ~ 1.7976931348623157E308
+			redstoneMonstrosityHurtRange = 20.0
+
+	[Attributes.Mini-Bosses]
+
+		[Attributes.Mini-Bosses.Crone]
+			#How much Max Health Crones have, Default: 130.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			croneHealth = 130.0
+
+		[Attributes.Mini-Bosses.Minister]
+			#How much Max Health Ministers have, Default: 128.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			ministerHealth = 128.0
+			#How much damage Ministers deals, Default: 5.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			ministerDamage = 5.0
+
+		[Attributes.Mini-Bosses."Skull Lord"]
+			#How much Max Health Skull Lord have, Default: 100.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			skullLordHealth = 100.0
+			#How much damage Skull Lord deals, Default: 6.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			skullLordDamage = 6.0
+			#How much Max Health Bone Lord have, Default: 20.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			boneLordHealth = 20.0
+			#How much damage Bone Lord deals, Default: 3.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			boneLordDamage = 3.0
+
+	[Attributes.Bosses]
+
+		[Attributes.Bosses.Vizier]
+			#How much Max Health Viziers have, Default: 200.0
+			#Range: 100.0 ~ 1.7976931348623157E308
+			vizierHealth = 200.0
+			#The maximum amount of damage a Vizier can attain per hit, Default: 20
+			#Range: > 1
+			vizierDamageCap = 20
+
+		[Attributes.Bosses.Apostle]
+			#How much Max Health Apostles have, Default: 320.0
+			#Range: 100.0 ~ 1.7976931348623157E308
+			apostleHealth = 640.0
+			#How much natural Armor Points Apostles have, Default: 12.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			apostleArmor = 16.0
+			#How much natural Toughness Points Apostles have, Default: 6.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			apostleToughness = 10.0
+			#The maximum amount of damage an Apostle can attain per hit, Default: 20
+			#Range: > 1
+			apostleDamageCap = 20
+			#Multiplies Apostle's Bow damage, Default: 4
+			#Range: > 2
+			apostleBowDamage = 12
+			#Set Apostle's spell damage (ie, Fire Tornadoes, Fire Blasts, Roars), Default: 6.0
+			#Range: 6.0 ~ 1.7976931348623157E308
+			apostleMagicDamage = 18.0
+

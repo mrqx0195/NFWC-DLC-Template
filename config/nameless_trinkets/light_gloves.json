@@ -1,0 +1,6 @@
+{
+  "config": {
+    "miningSpeedMultiplier": 1.5,
+    "isEnable": true
+  }
+}

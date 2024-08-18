@@ -1,0 +1,50 @@
+{
+  "armorSetName": "shedscale",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "unusualprehistory:shedscale_helmet"
+  },
+  "chest": {
+    "itemKey": "unusualprehistory:shedscale_chestplate"
+  },
+  "legs": {
+    "itemKey": "unusualprehistory:shedscale_leggings"
+  },
+  "boots": {
+    "itemKey": "unusualprehistory:shedscale_boots"
+  },
+  "hideGeneratedTooltip": false,
+  "customTooltips": [
+    "\u4f7f\u4f60\u6210\u4e3a\u6c34\u4e2d\u6700\u52c7\u731b\u7684\u6218\u58eb"
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:strength",
+      "value": 3.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "conditions": [
+        {
+          "type": "inWater"
+        }
+      ],
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:resistance",
+      "value": 1.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "conditions": [
+        {
+          "type": "inWater"
+        }
+      ],
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ]
+}

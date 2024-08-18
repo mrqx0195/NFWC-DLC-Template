@@ -1,0 +1,60 @@
+{
+  "armorSetName": "copper_iaf",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "iceandfire:armor_copper_metal_helmet"
+  },
+  "chest": {
+    "itemKey": "iceandfire:armor_copper_metal_chestplate",
+    "mixAndMatch": [
+      "create:copper_backtank"
+    ]
+  },
+  "legs": {
+    "itemKey": "iceandfire:armor_copper_metal_leggings"
+  },
+  "boots": {
+    "itemKey": "iceandfire:armor_copper_metal_boots"
+  },
+  "hideGeneratedTooltip": false,
+  "customTooltips": [
+    "\u7535\u80fd\u5728\u6d41\u52a8\u2026\u2026"
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "goety:charged",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "goety:charged",
+      "value": 1.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "inRain"
+        }
+      ]
+    },
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:lightning_spell_power",
+      "modifierUUID": "7CC2D4C1-953F-4DC6-A589-510FCE4142BF",
+      "description": "+60% \u96f7\u7535\u7cfb\u9b54\u6cd5\u4f24\u5bb3 when in rain",
+      "value": 0.6,
+      "conditions": [
+        {
+          "type": "inRain"
+        }
+      ]
+    }
+  ]
+}

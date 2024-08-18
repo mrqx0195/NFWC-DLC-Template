@@ -1,0 +1,52 @@
+{
+  "armorSetName": "myrmex",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "iceandfire:myrmex_desert_helmet",
+    "mixAndMatch": [
+      "iceandfire:myrmex_jungle_helmet"
+    ]
+  },
+  "chest": {
+    "itemKey": "iceandfire:myrmex_desert_chestplate",
+    "mixAndMatch": [
+      "iceandfire:myrmex_jungle_chestplate"
+    ]
+  },
+  "legs": {
+    "itemKey": "iceandfire:myrmex_desert_leggings",
+    "mixAndMatch": [
+      "iceandfire:myrmex_jungle_leggings"
+    ]
+  },
+  "boots": {
+    "itemKey": "iceandfire:myrmex_desert_boots",
+    "mixAndMatch": [
+      "iceandfire:myrmex_jungle_boots"
+    ]
+  },
+  "hideGeneratedTooltip": false,
+  "customTooltips": [
+    "\u867d\u7136\u50cf\u53ea\u8682\u8681\u4e86\uff0c\u4f46\u8fd8\u4e0d\u662f\u8682\u8681"
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "goety:climbing",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:poison",
+      "value": 3.0,
+      "interactionType": "attack",
+      "interactionDuration": 100,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ]
+}

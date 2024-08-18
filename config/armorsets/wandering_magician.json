@@ -1,0 +1,50 @@
+{
+  "armorSetName": "wandering_magician",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "irons_spellbooks:wandering_magician_helmet"
+  },
+  "chest": {
+    "itemKey": "irons_spellbooks:wandering_magician_chestplate"
+  },
+  "legs": {
+    "itemKey": "irons_spellbooks:wandering_magician_leggings"
+  },
+  "boots": {
+    "itemKey": "irons_spellbooks:wandering_magician_boots"
+  },
+  "offHand": {
+    "itemKey": "irons_spellbooks:graybeard_staff",
+    "mixAndMatch": [
+    "irons_spellbooks:artificer_cane"
+    ]
+  },
+  "additionalSetPieces": [{
+    "itemKey": "irons_spellbooks:copper_spell_book",
+    "mixAndMatch": [
+      "irons_spellbooks:rotten_spell_book",
+      "irons_spellbooks:iron_spell_book",
+      "irons_spellbooks:gold_spell_book"
+    ]
+  }],
+  "hideGeneratedTooltip": false,
+  "customTooltips": [
+    "\u82e5\u4f60\u4e00\u76f4\u5b89\u4e8e\u73b0\u72b6\u2026\u2026"
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:spell_power",
+      "modifierUUID": "5F77C592-205D-4365-A7A1-C5A21E306C9D",
+      "description": "+70% \u9b54\u6cd5\u4f24\u5bb3",
+      "value": 0.7
+    },
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:spell_resist",
+      "modifierUUID": "24EC5DED-6C10-4E59-B7DA-E6611B98B987",
+      "description": "+70% \u9b54\u6cd5\u62b5\u6297",
+      "value": 0.7
+    }
+  ]
+}

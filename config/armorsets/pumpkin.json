@@ -1,0 +1,31 @@
+{
+  "armorSetName": "pumpkin",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "extraarmor:pumpkin_helmet"
+  },
+  "chest": {
+    "itemKey": "extraarmor:pumpkin_chestplate"
+  },
+  "legs": {
+    "itemKey": "extraarmor:pumpkin_leggings"
+  },
+  "boots": {
+    "itemKey": "extraarmor:pumpkin_boots"
+  },
+  "hideGeneratedTooltip": false,
+  "customTooltips": [
+    "\u4f60\u611f\u5230\u65e0\u6bd4\u6ecb\u6da6\u2026\u2026"
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "farmersdelight:nourishment",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ]
+}

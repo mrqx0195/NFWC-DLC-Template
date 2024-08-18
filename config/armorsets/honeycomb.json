@@ -1,0 +1,40 @@
+{
+  "armorSetName": "honeycomb",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "extraarmor:honeycomb_helmet"
+  },
+  "chest": {
+    "itemKey": "extraarmor:honeycomb_chestplate"
+  },
+  "legs": {
+    "itemKey": "extraarmor:honeycomb_leggings"
+  },
+  "boots": {
+    "itemKey": "extraarmor:honeycomb_boots"
+  },
+  "hideGeneratedTooltip": false,
+  "customTooltips": [
+    "\u4e0d\u77e5\u600e\u7684\uff0c\u4f60\u5bf9\u6606\u866b\u6709\u4e86\u9690\u9690\u7684\u8840\u8109\u538b\u5236"
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "alexsmobs:debilitating_sting",
+      "value": 0.0,
+      "interactionType": "attack",
+      "interactionDuration": 600,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "alexsmobs:bug_pheromones",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "armorSetName": "sheep",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "iceandfire:sheep_helmet"
+  },
+  "chest": {
+    "itemKey": "iceandfire:sheep_chestplate"
+  },
+  "legs": {
+    "itemKey": "iceandfire:sheep_leggings"
+  },
+  "boots": {
+    "itemKey": "iceandfire:sheep_boots"
+  },
+  "hideGeneratedTooltip": false,
+  "customTooltips": [
+    "\u8fd9\u662f\u67d0\u79cd\u6076\u8da3\u5473\u5417\uff1f\u2026\u2026"
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "biomancy:libido",
+      "value": 0.0,
+      "interactionType": "interact",
+      "interactionDuration": 160,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ]
+}

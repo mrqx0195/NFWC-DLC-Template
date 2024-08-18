@@ -1,0 +1,42 @@
+[
+  {
+    "random": 0.5,
+    "gamestage": "setting_monster_invisibility_bonus",
+    "hostile": true,
+    "result": "allow",
+    "healthmultiply": 0.2,
+    "potion": "minecraft:invisibility,72000,0",
+    "continue": true
+  },
+  {
+    "gamestage": "all_armor_monster",
+    "onjoin": true,
+    "hostile": true,
+    "result": "allow",
+    "armorhelmet": [
+      "minecraft:netherite_helmet",
+      "minecraft:diamond_helmet",
+      "minecraft:iron_helmet",
+      "minecraft:chainmail_helmet"
+    ],
+    "armorchest": [
+      "minecraft:netherite_chestplate",
+      "minecraft:diamond_chestplate",
+      "minecraft:iron_chestplate",
+      "minecraft:chainmail_chestplate"
+    ],
+    "armorlegs": [
+      "minecraft:netherite_leggings",
+      "minecraft:diamond_leggings",
+      "minecraft:iron_leggings",
+      "minecraft:chainmail_leggings"
+    ],
+    "armorboots": [
+      "minecraft:netherite_boots",
+      "minecraft:diamond_boots",
+      "minecraft:iron_boots",
+      "minecraft:chainmail_boots"
+    ],
+    "continue": true
+  }
+]

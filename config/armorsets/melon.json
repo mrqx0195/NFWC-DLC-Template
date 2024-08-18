@@ -1,0 +1,31 @@
+{
+  "armorSetName": "melon",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "extraarmor:melon_helmet"
+  },
+  "chest": {
+    "itemKey": "extraarmor:melon_chestplate"
+  },
+  "legs": {
+    "itemKey": "extraarmor:melon_leggings"
+  },
+  "boots": {
+    "itemKey": "extraarmor:melon_boots"
+  },
+  "hideGeneratedTooltip": false,
+  "customTooltips": [
+    "\u4f60\u611f\u5230\u683c\u5916\u7684\u8212\u9002\u2026\u2026"
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "farmersdelight:comfort",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ]
+}

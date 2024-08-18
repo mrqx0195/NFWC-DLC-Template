@@ -1,0 +1,31 @@
+{
+  "armorSetName": "gilded_netherite",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "bygonenether:gilded_netherite_helmet"
+  },
+  "chest": {
+    "itemKey": "bygonenether:gilded_netherite_chestplate"
+  },
+  "legs": {
+    "itemKey": "bygonenether:gilded_netherite_leggings"
+  },
+  "boots": {
+    "itemKey": "bygonenether:gilded_netherite_boots"
+  },
+  "hideGeneratedTooltip": false,
+  "customTooltips": [
+    "\u5bf9\u9ec4\u91d1\u7684\u8d2a\u5a6a\u7a0d\u5fae\u6539\u53d8\u4e86\u5b83\u7684\u6027\u8d28\u2026\u2026"
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "goety:gold_touched",
+      "value": 4.0,
+      "interactionType": "attack",
+      "interactionDuration": 1200,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ]
+}

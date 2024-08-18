@@ -1,0 +1,40 @@
+{
+  "armorSetName": "ghost",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "extraarmor:ghost_helmet"
+  },
+  "chest": {
+    "itemKey": "extraarmor:ghost_chestplate"
+  },
+  "legs": {
+    "itemKey": "extraarmor:ghost_leggings"
+  },
+  "boots": {
+    "itemKey": "extraarmor:ghost_boots"
+  },
+  "hideGeneratedTooltip": false,
+  "customTooltips": [
+    "\u7075\u9b42\u4e4b\u529b\u73af\u7ed5\u5468\u8eab\uff0c\u53cd\u54fa\u4f60\u5e76\u8bc5\u5492\u4f60\u7684\u654c\u4eba"
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "alexsmobs:soulsteal",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "goety:cursed",
+      "value": 0.0,
+      "interactionType": "attack",
+      "interactionDuration": 600,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ]
+}
