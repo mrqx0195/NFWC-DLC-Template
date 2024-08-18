@@ -16,7 +16,7 @@ const dlcTemplateOrganPlayerKeyPressedOnlyStrategies = {
         // 超限等级，player.getHealth()即为玩家的当前生命值
         let amplifier = Math.max(Math.sqrt(player.getHealth()), 1) + 4
         // 超限施法，new ResourceLocation('irons_spellbooks', 'acupuncture')即为法术的id
-        overLimitSpellCast(new ResourceLocation('irons_spellbooks', 'acupunctu'), amplifier, player, false)
+        overLimitSpellCast(new ResourceLocation('irons_spellbooks', 'acupuncture'), amplifier, player, false)
         // 清空法力值
         magicData.setMana(0)
         // 添加冷却时间
