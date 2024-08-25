@@ -206,6 +206,28 @@ StartupEvents.registry('item', event => {
         .tag('kubejs:enchant_only')
         .tag('kubejs:dlc_template');
 
+    // 示例器官-破坏
+    registerOrgan(new Organ('dlc_template:example_organ_break')
+        .addTextLines('default', [Text.gray({ "translate": "dlc_template.tooltips.example_organ_break.1" })])
+        .addTextLines('alt', [LEADING_SYMBOL, Text.gray({ "translate": "dlc_template.tooltips.example_organ_break.2" })])
+        .addScore('knockback_resistant', 1)
+        .build())
+        .texture('dlc_template:item/organs/example_organ_break')
+        .tag('itemborders:iron')
+        .tag('kubejs:break')
+        .tag('kubejs:dlc_template');
+
+    // 示例器官-唯一破坏
+    registerOrgan(new Organ('dlc_template:example_organ_break_only')
+        .addTextLines('default', [Text.gray({ "translate": "dlc_template.tooltips.example_organ_break_only.1" })])
+        .addTextLines('alt', [LEADING_SYMBOL, Text.gray({ "translate": "dlc_template.tooltips.example_organ_break_only.2" })])
+        .addScore('knockback_resistant', 1.5)
+        .build())
+        .texture('dlc_template:item/organs/example_organ_break_only')
+        .tag('itemborders:gold')
+        .tag('kubejs:break_only')
+        .tag('kubejs:dlc_template');
+
     // 示例器官-按键激活
     registerOrgan(new Organ('dlc_template:example_organ_key_pressed')
         .addTextLines('default', [Text.gray({ "translate": "dlc_template.tooltips.example_organ_key_pressed.1" })])
